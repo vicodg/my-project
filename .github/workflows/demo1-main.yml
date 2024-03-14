@@ -1,0 +1,8 @@
+name: hello-world
+'on': push
+jobs: null
+my-jobs: null
+runs-on: mac-latest
+steps:
+  - name: my-step
+    run: echo "Hello World!"
